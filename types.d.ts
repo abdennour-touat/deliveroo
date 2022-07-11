@@ -19,3 +19,22 @@ type TabParamList = {
   Home: NavigatorScreenParams<RootStackParamList>;
   Profile: { userId: string };
 };
+
+interface FeaturedRowProps {
+  id: number;
+  title: string;
+  description: string;
+}
+
+interface RestaurantCardProps {
+  id: number;
+  imgUrl: string;
+  title: string;
+  rating: number;
+  genre: string;
+  address: string;
+  short_description: string;
+  dishes: string;
+  long: string;
+  lat: string;
+}
